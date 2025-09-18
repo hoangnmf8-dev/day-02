@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" style="background: lightgrey; width: 30%; margin: 0 auto">
+      <fieldset>
+        <legend>Thông tin tài khoản</legend>
+
+        <label for="name">Họ và tên</label>
+        <input type="text" id="name" />
+        <br />
+        <br />
+
+        <label for="name">Hòm thư</label>
+        <input type="text" id="email" />
+        <br />
+        <br />
+
+        <label for="name">Mật khẩu</label>
+        <input type="password" id="password" />
+        <br />
+        <br />
+
+        <label for="name">Xác nhận mật khẩu</label>
+        <input type="password" id="confirm-password" />
+        <br />
+        <br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Thông tin cá nhân</legend>
+
+        <label for="">Giới tính: </label>
+        <input type="radio" name="sex" /><span>Nam</span>
+        <input type="radio" name="sex" /><span>Nữ</span>
+        <input type="radio" name="sex" /><span>Khác</span>
+        <br />
+        <br />
+
+        <label for="">Sở thích: </label>
+        <input type="checkbox" name="interest" /><span>Thể thao</span>
+        <input type="checkbox" name="interest" /><span>Âm nhạc</span>
+        <input type="checkbox" name="interest" /><span>Du lịch</span>
+        <br />
+        <br />
+
+        <label for="">Ngày sinh: </label>
+        <input type="date" name="date" />
+        <br />
+        <br />
+
+        <label for="">Quốc gia: </label>
+        <select name="country">
+          <option>Việt Nam</option>
+          <option>Hoa Kỳ</option>
+          <option>Pháp</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="">Điện thoại: </label>
+        <input type="text" />
+        <br />
+        <br />
+
+        <label for="">Địa chỉ liên hệ: </label><br />
+        <textarea name="address" id="" cols="50" rows="5"></textarea>
+        <div class="btn" style="text-align: center; margin-top: 20px">
+          <button type="submit">Gửi</button>
+          <button type="reset">Hủy</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
